@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F7FBF7"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g)" rx="28"/>
+
+  <!-- Header -->
+  <rect x="16" y="28" width="358" height="120" rx="18" fill="#FFFFFF" stroke="#E6F1EA"/>
+  <text x="32" y="64" font-family="Inter, Arial" font-size="24" fill="#263238" font-weight="300">Dobro jutro! 🌅</text>
+  <text x="32" y="96" font-family="Inter, Arial" font-size="12" fill="#78909C">Ponedeljak, 8:00</text>
+
+  <!-- Status card -->
+  <rect x="16" y="160" width="358" height="72" rx="12" fill="#FFFFFF" stroke="#E8F6EA"/>
+  <rect x="16" y="160" width="6" height="72" rx="3" fill="#EF5350"/>
+  <text x="32" y="190" font-family="Inter, Arial" font-size="12" fill="#78909C">Termini trenutno: 10</text>
+  <text x="32" y="210" font-family="Inter, Arial" font-size="14" fill="#263238" font-weight="600">⚠️ Preskupilo — razmotri odmor</text>
+
+  <!-- Quick actions -->
+  <text x="20" y="260" font-family="Inter, Arial" font-size="14" fill="#263238" font-weight="600">Brze akcije</text>
+  <g transform="translate(16,280)">
+    <rect x="0" y="0" width="102" height="92" rx="12" fill="#FFFFFF" stroke="#EDEDED"/>
+    <text x="22" y="55" font-family="Inter, Arial" font-size="12" fill="#FFB74D">🎙️
+</text>
+    <text x="12" y="75" font-family="Inter, Arial" font-size="12" fill="#263238">Govorna</text>
+  </g>
+  <g transform="translate(140,280)">
+    <rect x="0" y="0" width="102" height="92" rx="12" fill="#FFFFFF" stroke="#EDEDED"/>
+    <text x="18" y="55" font-family="Inter, Arial" font-size="12" fill="#81C784">＋</text>
+    <text x="20" y="75" font-family="Inter, Arial" font-size="12" fill="#263238">Novi termin</text>
+  </g>
+  <g transform="translate(264,280)">
+    <rect x="0" y="0" width="102" height="92" rx="12" fill="#FFFFFF" stroke="#EDEDED"/>
+    <text x="26" y="55" font-family="Inter, Arial" font-size="12" fill="#FFD166">⚙️</text>
+    <text x="16" y="75" font-family="Inter, Arial" font-size="12" fill="#263238">Postavke</text>
+  </g>
+
+  <!-- Appointments list (mock) -->
+  <text x="20" y="400" font-family="Inter, Arial" font-size="14" fill="#263238" font-weight="600">Termini za dan</text>
+
+  <g transform="translate(16,420)">
+    <rect x="0" y="0" width="358" height="72" rx="10" fill="#FFFFFF" stroke="#EDEDED"/>
+    <text x="14" y="28" font-family="Inter, Arial" font-size="16" fill="#263238" font-weight="600">Jutarnji sastanak</text>
+    <text x="14" y="48" font-family="Inter, Arial" font-size="12" fill="#78909C">08:30 — 09:00 • 💼 Rad</text>
+    <text x="320" y="44" font-family="Inter, Arial" font-size="12" fill="#78909C">30m</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="32" y="820" font-family="Inter, Arial" font-size="10" fill="#9E9E9E">Amigella — mockup</text>
+</svg>
